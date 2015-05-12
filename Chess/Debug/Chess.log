@@ -1,0 +1,50 @@
+﻿Build started 2015/4/7 10:47:19.
+     1>Project "C:\Users\BerryRobot\Documents\Visual Studio 2010\Projects\Chess\Chess\Chess.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Chess.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iork /Iork\libraries /ZI /nologo /W3 /WX- /Od /Oy- /D NDEBUG /D _USE_MATH_DEFINES /D WIN32 /D _CONSOLE /D _UNICODE /D UNICODE /D "ORK_API=__declspec(dllimport)" /D TIXML_USE_STL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt camera.cpp
+         camera.cpp
+     1>c:\users\berryrobot\documents\visual studio 2010\projects\chess\chess\camera.cpp(29): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\berryrobot\documents\visual studio 2010\projects\chess\chess\camera.cpp(42): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\berryrobot\documents\visual studio 2010\projects\chess\chess\camera.cpp(55): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Chess.exe.embed.manifest.res" Debug\Chess_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BerryRobot\Documents\Visual Studio 2010\Projects\Chess\Debug\Chess.exe" /INCREMENTAL /NOLOGO /LIBPATH:ork/lib ork.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Chess.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\BerryRobot\Documents\Visual Studio 2010\Projects\Chess\Debug\Chess.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\BerryRobot\Documents\Visual Studio 2010\Projects\Chess\Debug\Chess.lib" /MACHINE:X86 Debug\Chess.exe.embed.manifest.res
+         Debug\board.obj
+         Debug\camera.obj
+         Debug\fileloader.obj
+         Debug\main.obj
+         Debug\mainwindow.obj
+         Debug\mesh.obj
+         Debug\model.obj
+         Debug\piece.obj
+         Debug\player.obj
+         Debug\ray.obj
+         Debug\rule.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Chess.exe.embed.manifest" /manifest Debug\Chess.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Chess.exe.embed.manifest.res" Debug\Chess_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BerryRobot\Documents\Visual Studio 2010\Projects\Chess\Debug\Chess.exe" /INCREMENTAL /NOLOGO /LIBPATH:ork/lib ork.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Chess.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\BerryRobot\Documents\Visual Studio 2010\Projects\Chess\Debug\Chess.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\BerryRobot\Documents\Visual Studio 2010\Projects\Chess\Debug\Chess.lib" /MACHINE:X86 Debug\Chess.exe.embed.manifest.res
+         Debug\board.obj
+         Debug\camera.obj
+         Debug\fileloader.obj
+         Debug\main.obj
+         Debug\mainwindow.obj
+         Debug\mesh.obj
+         Debug\model.obj
+         Debug\piece.obj
+         Debug\player.obj
+         Debug\ray.obj
+         Debug\rule.obj
+         Chess.vcxproj -> C:\Users\BerryRobot\Documents\Visual Studio 2010\Projects\Chess\Debug\Chess.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Chess.unsuccessfulbuild".
+         Touching "Debug\Chess.lastbuildstate".
+     1>Done Building Project "C:\Users\BerryRobot\Documents\Visual Studio 2010\Projects\Chess\Chess\Chess.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:01.19

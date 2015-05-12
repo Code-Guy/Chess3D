@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="item">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="logic">
+      <UniqueIdentifier>{b6d5f61b-b349-472b-82a1-16e724cb80a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{9fbd35a1-9f33-4efa-b0be-565f39f03c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{26fa1705-e114-4731-ad9e-2b67dbcc368e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{7d010b6d-eb96-459d-bfe1-7533292bd6f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="board.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="piece.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="rule.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="fileloader.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>item</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="geometry.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="octree.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="serverclient.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="text2d.cpp">
+      <Filter>item</Filter>
+    </ClCompile>
+    <ClCompile Include="packet.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay2d.cpp">
+      <Filter>item</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>item</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="board.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="piece.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="rule.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="fileloader.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwindow.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>item</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>item</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="octree.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="serverclient.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="text2d.h">
+      <Filter>item</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay2d.h">
+      <Filter>item</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>item</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
