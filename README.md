@@ -14,7 +14,6 @@ Please input the server's IP and Port:
 172.30.164.1 2029
 Connect to server successfully!
 ```
-
  - on server side, accept client's (only one) access.
 
 ```
@@ -23,7 +22,6 @@ Bind IP: 172.30.164.1, Bind Port: 2029
 Please input the server's IP and Port:
 Client from 172.30.164.1:2037
 ```
-
 ###Feature
  - Network programming based on fundamental win32 socket
  - Implement a complete chess's rule system which players can interact with
